@@ -12,16 +12,32 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
+      <Box>
+        <Text textStyle="title">Ontological Game</Text>
+        <Text textStyle="content">The Ontological Game is an ecosystem comprising a group of closely related projects and a unique system of interconnected games, giving rise to an innovative and symbiotic open economy across their borders</Text>
+      </Box>
       <Flex>
-        <Text>Merca City</Text>
+        <Box>
+          <Text textStyle="title">Merca City</Text>
+          <Text textStyle="content">Merca City is an open world MMORPG-RTS, where artists, designers, developers, gamers, and collectors may come together to play, experiment, and collaborate.</Text>
+        </Box>
         <Spacer />
-        <Text>Labyrinthine Unreal</Text>
+        <Box>
+          <Text textStyle="title">Labyrinthine Unreal</Text>
+          <Text textStyle="content">Labyrinthine Unreal is a game of mystery and exploration, and the subterranean space of Merca City. Players may move between worlds through hidden portals that can be accessed from a personal tablet (each player is equipped with one at the beginning of the game).</Text>
+        </Box>
       </Flex>
 
       <Flex>
-        <Text>TaurosDAO</Text>
+        <Box>
+          <Text textStyle="title">TaurosDAO</Text>
+          <Text textStyle="content">TaurosDAO is a community of artists, collectors, developers, and designers launched in January of 2022 and presently managed by The Ontological Game Team. It organizes 3D digital events, collects notable works of art, and designs, creates, curates, and manages art galleries for its members and collectors.</Text>
+        </Box>
         <Spacer />
-        <Text>DigiPicks</Text>
+        <Box>
+          <Text textStyle="title">DigiPicks</Text>
+          <Text textStyle="content">DigiPicks is an NFT marketplace that exists at the intersection of all the above projects; A game asset store for Merca City and Labyrinthine Unreal, as well as a marketplace for artworks and collections by TaurosDAO members, artists and third party projects.</Text>
+        </Box>
       </Flex>
 
       <Footer />
